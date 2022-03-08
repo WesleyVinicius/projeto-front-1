@@ -1,77 +1,115 @@
-#banner{
-    width: 100%;
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-.subtitulo{
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
     font-weight: bold;
-    font-size: 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
 }
 
-.principal{
-    text-align: center;
-    border: solid;
-    border-radius: 10px;
-    margin: 30px 30px;
-    padding: 30px;
-    line-height: 1.5;
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
 }
 
-.principal:hover{
-    border-color: #C78C19;
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.principal:active{
-    border-color: #088C19;
-}
-
-strong{
-    font-weight: bold;
-}
-
-.missao{
-    font-size: 20px;
-}
-
-.missao em{
-    font-style: italic;
-}
-
-.missao strong{
-    font-weight: bold;
-}
-
-.beneficios{
-    border: solid;
-    border-radius: 10px;
-    margin: 30px 30px;
-    padding: 30px;
-}
-
-.beneficios:hover{
-    border-color: #C78C19;
-}
-
-.beneficios:active{
-    border-color: #088C19;
-}
-
-.titulo-beneficios{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#img-beneficios{
-    width: 50%;
-    margin: 30px 30px;
-}
-
-.itens{
+.produtos li{
     display: inline-block;
-    vertical-align: top;
-    margin-left: 15%;
-    margin-top: 15%;
-    line-height: 1.5;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+}
+
+.produtos li:active{
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding:  40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.formulario{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
     font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
